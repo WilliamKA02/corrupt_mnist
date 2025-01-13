@@ -1,0 +1,29 @@
+{
+  "os": "Windows-10-10.0.22631-SP0",
+  "python": "CPython 3.11.11",
+  "startedAt": "2025-01-12T15:29:29.750507Z",
+  "program": "-m __main__",
+  "git": {
+    "remote": "https://github.com/SkafteNicki/dtu_mlops",
+    "commit": "2963857473e1960cfef14ae4f96085ae1db3e5b1"
+  },
+  "email": "s234803@dtu.dk",
+  "root": ".",
+  "host": "William-pc",
+  "executable": "C:\\Users\\willi\\anaconda3\\envs\\ML_Ops\\python.exe",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "252768677888",
+      "used": "241634889728"
+    }
+  },
+  "memory": {
+    "total": "8311832576"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  }
+}
