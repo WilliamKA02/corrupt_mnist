@@ -1,7 +1,7 @@
 import pytest
 import os.path
 from torch.utils.data import Dataset
-from my_project.data import corrupt_mnist
+from src.my_project.data import corrupt_mnist
 
 train_set, test_set = corrupt_mnist()
 
