@@ -1,6 +1,7 @@
 # my_project
 
 personal project in ML Ops
+testing cloud trigger
 
 ## Project structure
 
