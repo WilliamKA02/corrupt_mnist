@@ -24,7 +24,7 @@ class My_model(LightningModule):
 
     def forward(self, x):
         return self.backbone(x)
-    
+
     def training_step(self, batch):
         data, target = batch
         prediction = self.forward(data)
@@ -37,10 +37,10 @@ class My_model(LightningModule):
         self.log("test_loss", loss)
         self.log("test_acc", acc)
         return loss
-    
+
     def configure_optimizers(self):
         return torch.optim.Adam(self.parameters(), lr=1e-3)
-    
+
     def test_step(self, batch):
         images, targets = batch
         outputs = self.forward(images)

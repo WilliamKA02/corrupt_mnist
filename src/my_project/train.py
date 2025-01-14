@@ -67,7 +67,7 @@ def train(lr: float = 1e-3, batch_size: int = 32, epochs: int = 10) -> None:
 
                 grads = torch.cat([p.grad.flatten() for p in model.parameters() if p.grad is not None], 0)
                 wandb.log({"gradients": wandb.Histogram(grads)})
-        
+
         preds = torch.cat(preds, 0)
         targets = torch.cat(targets, 0)
 
