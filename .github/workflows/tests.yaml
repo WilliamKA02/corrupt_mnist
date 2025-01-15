@@ -15,7 +15,7 @@ jobs:
       fail-fast: false
       matrix:
         operating-system: ["windows-latest"]
-        python-version: ["3.12", "3.11"]
+        python-version: ["3.11"]
 
     steps:
       - name: Checkout code
@@ -31,7 +31,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install -U pip setuptools wheel
-          pip install -r requirements.txt
+          pip install -r requirements_tests.txt
           pip list
 
       - name: Test with pytest
