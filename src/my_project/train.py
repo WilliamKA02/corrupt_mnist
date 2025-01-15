@@ -55,7 +55,7 @@ def train(lr: float = 1e-3, batch_size: int = 32, epochs: int = 10) -> None:
 
             accuracy = (y_pred.argmax(dim=1) == target).float().mean().item()
             statistics["train_accuracy"].append(accuracy)
-            print({"train_loss": loss.item(), "train_accuracy": accuracy})
+            # print({"train_loss": loss.item(), "train_accuracy": accuracy})
 
             preds.append(y_pred.detach().cpu())
             targets.append(target.detach().cpu())
