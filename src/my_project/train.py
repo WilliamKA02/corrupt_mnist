@@ -1,5 +1,5 @@
-from src.my_project.model import model
-from src.my_project.data import corrupt_mnist
+from my_project.model import model
+from my_project.data import corrupt_mnist
 from torch import nn, optim
 import matplotlib.pyplot as plt
 # from sklearn.metrics import RocCurveDisplay, accuracy_score, f1_score, precision_score, recall_score
