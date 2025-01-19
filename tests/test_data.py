@@ -5,7 +5,7 @@ from src.my_project.data import corrupt_mnist
 
 train_set, test_set = corrupt_mnist()
 
-@pytest.mark.skipif(not os.path.exists("data/raw/data/corruptedmnist"), reason="Data files not found")
+@pytest.mark.skipif(not os.path.exists("data/processed/"), reason="Data files not found")
 
 def test_my_trainset():
     """Test the MyDataset class."""

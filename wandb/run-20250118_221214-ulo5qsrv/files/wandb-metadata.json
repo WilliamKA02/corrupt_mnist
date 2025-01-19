@@ -1,0 +1,29 @@
+{
+  "os": "Windows-10-10.0.22631-SP0",
+  "python": "CPython 3.11.11",
+  "startedAt": "2025-01-18T21:12:15.701923Z",
+  "program": "-m __main__",
+  "git": {
+    "remote": "https://github.com/WilliamKA02/corrupt_mnist.git",
+    "commit": "d5c7575e80c9c9880885ea390619a3d7cef8be64"
+  },
+  "email": "s234803@dtu.dk",
+  "root": "C:\\Users\\willi\\Desktop\\DTU\\semester_3\\ML_ops\\my_project",
+  "host": "William-pc",
+  "executable": "C:\\Users\\willi\\anaconda3\\envs\\ML_Ops\\python.exe",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "252768677888",
+      "used": "237966536704"
+    }
+  },
+  "memory": {
+    "total": "8311832576"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  }
+}

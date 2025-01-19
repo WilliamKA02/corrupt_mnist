@@ -68,7 +68,7 @@ coverage.xml
 .pytest_cache/
 cover/
 tests/performancetests/
-data/
+data/raw/
 
 # Translations
 *.mo
