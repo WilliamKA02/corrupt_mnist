@@ -1,5 +1,5 @@
 pytest==8.3.4
 httpx==0.28.1
-locust==2.32.5
+locust==2.32.6
 fastapi==0.115.6
 coverage==7.6.9
